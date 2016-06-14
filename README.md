@@ -1,4 +1,4 @@
-# browserify-fixcase-transform
+# browserify-fixcase-transform [![Build Status](https://travis-ci.org/northerncodemky/browserify-fixcase-transform.svg?branch=master)](https://travis-ci.org/northerncodemky/browserify-fixcase-transform)
 A simple browserify transform to ensure that the case of require()'d file names are consistent. This is based on the browserify-casesensitiverequire transform by Pete Ward (https://github.com/peteward44/browserify-casesensitiverequire) which just warned and took no steps to rectify the issues. As I was facing errors in production code due to the case sensitivity issue it was imperative to automagically fix these.
 
 This currently limits itself to dealing with relative file paths only.
