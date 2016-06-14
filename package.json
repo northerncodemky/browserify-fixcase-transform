@@ -1,0 +1,28 @@
+{
+  "name": "browserify-fixcase-transform",
+  "version": "0.0.1",
+  "description": "Browserify transform to normalise casing in requires to prevent duplication",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test",
+    "lint": "eslint --config ./.eslintrc.json **/*.js"
+  },
+  "keywords": [
+    "browserify",
+    "browserify-transform",
+    "case",
+    "transform",
+    "require"
+  ],
+  "author": "Chris Richards",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.12.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "browserify-transform-tools": "^1.6.0",
+    "path": "^0.12.7"
+  }
+}

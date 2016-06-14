@@ -1,0 +1,56 @@
+{
+    "rules": {
+        "indent": [
+            2,
+            2
+        ],
+        "quotes": [
+            2,
+            "single",
+            {
+                "avoidEscape": true
+            }
+        ],
+        "linebreak-style": [
+            2,
+            "unix"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "complexity": [
+            1, 
+            4
+        ],
+        "max-depth": [
+            1,
+            3  
+        ],
+        "no-console": 0,
+        "eqeqeq": 1,
+        "no-warning-comments": [
+          0,
+          {
+            "terms": [ "todo", "fixme", "to do"], 
+            "location": "anywhere"
+          }
+        ]
+    },
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "plugins": [
+    ],
+    "extends": ["eslint:recommended"],
+    "ecmaFeatures": {
+        "jsx": true,
+        "modules": true,
+        "experimentalObjectRestSpread": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    }
+}
